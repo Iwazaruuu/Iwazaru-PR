@@ -15,7 +15,7 @@ const projects = [
     id: 'fixlab',
     title: 'FixLab',
     desc: 'Брендинг, SMM-дизайн и оформление доставки для сервиса по ремонту техники.',
-    dir: '/portfolio/images/FixLab',
+    dir: import.meta.env.BASE_URL + 'portfolio/images/FixLab',
     images: [
       'fixlab_ru_final.png', 'fixlab_LV_final.png', 'fixlab_ru.png',
       'fixlab_ligo_ru.png', 'fixlab_ligo_lv.png', 'fixlab_temperature_RU (1).png',
@@ -31,7 +31,7 @@ const projects = [
     id: 'godjigame',
     title: 'Godji Game',
     desc: 'Полный визуал для стримера: VK-баннеры, плашки, анонсы турниров и holiday-кампании.',
-    dir: '/portfolio/images/GodjiGame',
+    dir: import.meta.env.BASE_URL + 'portfolio/images/GodjiGame',
     images: [
       'VK_BANNER.png', 'VK_BANNER_V2.png', 'VK_BANNER_V3.png', 'VK_BANNER_V4.png',
       'VK_BANNER_V5.png', 'VK_BANNER_V6.png', 'VK_BANNER_V7.png', 'banner_gdj.png',
@@ -51,7 +51,7 @@ const projects = [
     id: 'godji-new',
     title: 'Godji — Новый стиль',
     desc: 'Обновление визуального стиля: логотип, плашки, турнирные афиши и оформление сообщества.',
-    dir: '/portfolio/images/godjiNewStylePNGS',
+    dir: import.meta.env.BASE_URL + 'portfolio/images/godjiNewStylePNGS',
     images: [
       'gg_logo.png', 'logogodji.png', 'GodjiZastavka2024_v2.png',
       'godjibirthday.png', 'giveaway.png', 'rules.png', 'VK_LOGO.png',
@@ -72,7 +72,7 @@ const projects = [
     id: 'ttv',
     title: 'Twitch-оформление',
     desc: 'Баннеры, панели и офлайн-заставка для Twitch-канала.',
-    dir: '/portfolio/images/ttv',
+    dir: import.meta.env.BASE_URL + 'portfolio/images/ttv',
     images: [
       'banner.png', 'logo_twitch.png', 'offline.png', 'socials.png',
       'PANELS/DISCORD.png', 'PANELS/DONATE.png', 'PANELS/INFO.png',
@@ -83,7 +83,7 @@ const projects = [
     id: 'other',
     title: 'Отдельные работы',
     desc: 'YouTube-баннеры, превью, донат-аппарат и другие графические работы.',
-    dir: '/portfolio/images',
+    dir: import.meta.env.BASE_URL + 'portfolio/images',
     images: [
       'banner_iwa.png', 'banner_iwa_youtube.png', 'banner_iwa_youtubex2.png',
       'banneroverdice.png', 'overdiceshark_ny.png', 'iwazaru_y2k.png',
