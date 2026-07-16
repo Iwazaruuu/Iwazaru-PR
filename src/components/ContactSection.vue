@@ -22,18 +22,21 @@ onMounted(() => {
       ease: 'power3.out'
     })
 
-    gsap.from('.contact-section .contact-link', {
-      scrollTrigger: {
-        trigger: sectionRef.value,
-        start: 'top 80%',
-        toggleActions: 'play none none none'
-      },
-      opacity: 0,
-      y: 30,
-      duration: 0.6,
-      stagger: 0.12,
-      ease: 'power3.out'
-    })
+    gsap.fromTo('.contact-section .contact-link',
+      { opacity: 0, y: 24 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.45,
+        stagger: 0.06,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: sectionRef.value,
+          start: 'top 80%',
+          toggleActions: 'play none none none'
+        }
+      }
+    )
   }, sectionRef.value)
 
   onUnmounted(() => {
@@ -56,10 +59,7 @@ onUnmounted(() => {
       </p>
     </div>
     <div class="contact-links">
-      <a href="mailto:hello@example.com" class="contact-link">
-        Email
-      </a>
-      <a href="https://t.me/username" target="_blank" rel="noopener" class="contact-link">
+      <a href="https://t.me/Iwazaruu" target="_blank" rel="noopener" class="contact-link">
         Telegram
       </a>
       <a href="https://github.com/Iwazaruuu" target="_blank" rel="noopener" class="contact-link">
