@@ -19,8 +19,7 @@ const projects = [
     images: [
       'fixlab_ru_final.png', 'fixlab_LV_final.png', 'fixlab_ru.png',
       'fixlab_ligo_ru.png', 'fixlab_ligo_lv.png', 'fixlab_temperature_RU (1).png',
-      'fixlab_temperature_LV (1).png', 'fixlab_delivery_LV (1).png',
-      'fixlab_delivery_LV.png', 'fixlab_delivery (2).png', 'fixlab_delivery (3).png',
+      'fixlab_temperature_LV (1).png',
       'fixlab_1.png', 'flag_fixlab.png', 'fixlab_temperature.png',
       'Facebook post.jpg', 'Facebook post (1).jpg', 'FACEBOOK POST PC.jpg',
       'FACEBOOK POST PC (1).jpg', 'Facebook top.jpg', 'Facebook top (1).jpg',
@@ -57,7 +56,6 @@ const projects = [
       'godjibirthday.png', 'giveaway.png', 'rules.png', 'VK_LOGO.png',
       'promo/godjiplus.png', 'promo/map_review.png',
       'tournaments/cs2_1x1.png', 'tournaments/cs2_2x2.png',
-      'posts/cs2 tournament', 'posts/top 5',
       'VK_PLATES/VK_BANNER.png', 'VK_PLATES/VK_BANNER_V2.png',
       'VK_PLATES/VK_BANNER_V3.png', 'VK_PLATES/VK_BANNER_V4.png',
       'VK_PLATES/VK_BANNER_V5.png', 'VK_PLATES/VK_BANNER_V6.png',
