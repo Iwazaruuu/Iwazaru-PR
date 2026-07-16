@@ -15,7 +15,7 @@ const projects = [
     id: 'fixlab',
     title: 'FixLab',
     desc: 'Брендинг, SMM-дизайн и оформление доставки для сервиса по ремонту техники.',
-    dir: '/portfolio/Портфолио/FixLab',
+    dir: '/portfolio/images/FixLab',
     images: [
       'fixlab_ru_final.png', 'fixlab_LV_final.png', 'fixlab_ru.png',
       'fixlab_ligo_ru.png', 'fixlab_ligo_lv.png', 'fixlab_temperature_RU (1).png',
@@ -31,7 +31,7 @@ const projects = [
     id: 'godjigame',
     title: 'Godji Game',
     desc: 'Полный визуал для стримера: VK-баннеры, плашки, анонсы турниров и holiday-кампании.',
-    dir: '/portfolio/Портфолио/GodjiGame(часть работ недоступна)',
+    dir: '/portfolio/images/GodjiGame',
     images: [
       'VK_BANNER.png', 'VK_BANNER_V2.png', 'VK_BANNER_V3.png', 'VK_BANNER_V4.png',
       'VK_BANNER_V5.png', 'VK_BANNER_V6.png', 'VK_BANNER_V7.png', 'banner_gdj.png',
@@ -51,7 +51,7 @@ const projects = [
     id: 'godji-new',
     title: 'Godji — Новый стиль',
     desc: 'Обновление визуального стиля: логотип, плашки, турнирные афиши и оформление сообщества.',
-    dir: '/portfolio/Портфолио/godjiNewStylePNGS',
+    dir: '/portfolio/images/godjiNewStylePNGS',
     images: [
       'gg_logo.png', 'logogodji.png', 'GodjiZastavka2024_v2.png',
       'godjibirthday.png', 'giveaway.png', 'rules.png', 'VK_LOGO.png',
@@ -64,15 +64,15 @@ const projects = [
       'VK_PLATES/VK_BANNER_V7.png', 'VK_PLATES/games.png', 'VK_PLATES/godjicoin.png',
       'VK_PLATES/news.png', 'VK_PLATES/pcs.png', 'VK_PLATES/PRICE.png',
       'VK_PLATES/ref.png', 'VK_PLATES/sale.png', 'VK_PLATES/tavern.png',
-      'морской бой/seabattle.png', 'морской бой/seabattle_v2.png',
-      'Сертифкаты/1000.png'
+      'sea_battle/seabattle.png', 'sea_battle/seabattle_v2.png',
+      'certs/1000.png'
     ]
   },
   {
     id: 'ttv',
     title: 'Twitch-оформление',
     desc: 'Баннеры, панели и офлайн-заставка для Twitch-канала.',
-    dir: '/portfolio/Портфолио/ttv',
+    dir: '/portfolio/images/ttv',
     images: [
       'banner.png', 'logo_twitch.png', 'offline.png', 'socials.png',
       'PANELS/DISCORD.png', 'PANELS/DONATE.png', 'PANELS/INFO.png',
@@ -83,7 +83,7 @@ const projects = [
     id: 'other',
     title: 'Отдельные работы',
     desc: 'YouTube-баннеры, превью, донат-аппарат и другие графические работы.',
-    dir: '/portfolio/Портфолио',
+    dir: '/portfolio/images',
     images: [
       'banner_iwa.png', 'banner_iwa_youtube.png', 'banner_iwa_youtubex2.png',
       'banneroverdice.png', 'overdiceshark_ny.png', 'iwazaru_y2k.png',
@@ -94,7 +94,7 @@ const projects = [
       'psylocke.png', 'SETUP.png', 'sharky__.png', 'smth.png',
       'so_dangerous.png', 'TELEGRAM.png', 'telegram_banner.png',
       'template_banner.png', 'theyarevoid.png', 'urpretty.png', 'V.png',
-      'WATCHMEGO.png', 'Zapishi.png', 'Монтажная область 1.png'
+      'WATCHMEGO.png', 'Zapishi.png', 'montage_1.png'
     ]
   }
 ]
